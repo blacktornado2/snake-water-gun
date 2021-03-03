@@ -28,7 +28,7 @@ def compare(user,comp):
 #Taking the input from user in the form of a character and then convert it into a whole string
 userchar = input("Enter your choice : Snake(s) / Water(w) / Gun(g) ? : ")
 if(userchar == 's'):
-    user = Snake
+    user = "Snake"
 elif(userchar == 'w'):
     user = "Water"
 else:
